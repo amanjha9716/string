@@ -1,6 +1,7 @@
-const io= require('socket.io')(3000);
+const port = process.env.PORT;
+const io= require('socket.io')(port);
 const user={};
-
+console.log("connected to port",port);
 io.on('connection', socket=>{
     socket.on('new-user', name=>{
         console.log("hi",name);
