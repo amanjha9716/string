@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const socket = io('http://localhost:3000', { transports : ['websocket'] });
 const audio= new Audio('sms_tone.mp3');
 const form= document.querySelector("#send-container");
