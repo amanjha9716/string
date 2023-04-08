@@ -1,0 +1,716 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+    <link rel="icon" href="img/header.png">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <img class="h-10 mt-1 flex items-center ml-3 mr-3 mb-2 " src="img/header.png" alt="">
+
+      <a class="navbar-brand" href="#"><span class="text-red-600 font-bold">Str</span><span class="text-blue-400 font-bold">ing</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          
+            <li class="nav-item">
+            <a class="nav-link hover:text-blue-500" aria-current="page" href="#">Home</a>
+          </li>
+          
+         
+          <li class="nav-item">
+            <a class="nav-link" href="#"  aria-current="page">Features</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#"  aria-current="page">Screenshots</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"  aria-current="page">Contact</a>
+          </li>
+        </ul>
+        <li class="d-flex nav-item  ">
+            <a class="nav-link text-gray-200 hover:text-blue-500" aria-current="page" href="#">Sign Up</a>
+        </li>
+        <li class="d-flex nav-item ">
+            <a class="nav-link hover:text-blue-500" aria-current="page" href="#">Login</a>
+          </li>
+        <li class="d-flex nav-item h-10">
+            <img class="rounded-full" src="https://pagalstatus.com/wp-content/webpc-passthru.php?src=https://pagalstatus.com/wp-content/uploads/2021/06/Shinchan-Whatsapp-Status-Video.jpg&nocache=1" alt="">
+          </li>
+      </div>
+    </div>
+  </nav>
+  <!-- home -->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators fixed-bottom">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <div class="home min-h-screen bg-gradient-to-r from-purple-400 to-gray-500 flex justify-center">
+          <h1 class="relative top-40  text-7xl"><span class="text-red-800">Str</span><span class="text-blue-800">ing</span></h1>
+        </div>
+      </div>
+      <div class="carousel-item bg-gray-100" data-bs-interval="2000">
+        <div class="container ">
+          <form class="row g-3" action="http://127.0.0.1:5500/home.html" method="POST">
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4">
+              </div>
+              <div class="col-12">
+                <label for="inputname" class="form-label">Name</label>
+                <input type="text" class="form-control" id="inputname" placeholder="Name">
+              </div>
+      
+              <div class="col-md-4">
+                <label for="inputroom" class="form-label">Room</label>
+                <select id="inputroom" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>Cricket</option>
+                  <option>Money Hiest</option>
+                  <option>Politics</option>
+                  <option>Netflic</option>
+
+                </select>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" required="true" for="gridCheck">
+                    Are you sure !
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary chatbtn mb-28">Start chatting</button>
+              </div>
+           </form>
+          </div>
+        </div>
+      <div class="carousel-item bg-gray-100">
+        <section id="get-started" class="padd-section text-center">
+
+          <div class="container mb-0" data-aos="fade-up">
+            <div class="section-title text-center mt-0">
+    
+              <h1 style="font-family: 'Lobster', cursive; color: crimson; text-transform: capitalize;">String <span style="color: blue;">walkthrough</span> </h1>
+              <h5 class="separator">connect people with privicy</h5>
+    
+            </div>
+          </div>
+    
+          <div class="content">
+            <div class="row">
+    
+              <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+                <div class="feature-block-head">
+                  <img class="h-20 mx-auto mb-2" src="https://image.flaticon.com/icons/png/512/1146/1146296.png" alt="img">
+                  <h4>introducing string</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                  <a href="#">read more</a>
+    
+                </div>
+              </div>
+    
+              <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+                <div class="feature-block-head">
+    
+                  <img class="h-20 mx-auto mb-2" src="https://image.flaticon.com/icons/png/512/1374/1374275.png" alt="img">
+                  <h4>user friendly interface</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                  <a href="#">read more</a>
+    
+                </div>
+              </div>
+    
+              <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+                <div class="feature-block-head">
+    
+                  <img class="h-20 mx-auto mb-2" src="https://image.flaticon.com/icons/png/512/3594/3594083.png" alt="img">
+                  <h4>build the app everyone love</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                  <a href="#">read more</a>
+    
+                </div>
+              </div>
+    
+            </div>
+          </div>
+    
+        </section><!-- End Get Started Section -->
+        
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- features -->
+  <section id="features" class="padd-section text-center">
+
+    <div class="container-feature" data-aos="fade-up">
+      <div class="section-title text-center">
+        <h2>Amazing Features.</h2>
+        <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+      </div>
+
+      <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block text-center">
+            <img class="h-16 mx-auto"src="https://image.flaticon.com/icons/png/512/3749/3749872.png" alt="img">
+            <h4>creative design</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block">
+            <img class="h-16 mx-auto" src="https://image.flaticon.com/icons/png/128/841/841385.png" alt="img">
+            <h4>Retina Ready</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block">
+            <img class="h-16 mx-auto" src="https://image.flaticon.com/icons/png/128/4379/4379606.png" alt="img">
+            <h4>easy to use</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block">
+            <img class="h-16 mx-auto" src="https://image.flaticon.com/icons/png/128/834/834775.png" alt="img">
+            <h4>Free Updates</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block">
+            <img class="h-16 mx-auto" src="https://image.flaticon.com/icons/png/128/3770/3770154.png" alt="img">
+            <h4>Free Updates</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block">
+            <img class="h-16 mx-auto" src="https://image.flaticon.com/icons/png/128/3770/3770154.png" alt="img">
+            <h4>App store support</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block">
+            <img class="h-16 mx-auto" src="https://image.flaticon.com/icons/png/128/1808/1808495.png" alt="img">
+            <h4>Perfect Pixel</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block">
+            <img class="h-16 mx-auto" src="https://t4.ftcdn.net/jpg/03/57/63/51/240_F_357635131_b9rWQpLPEh6IVkHmqv4jqTf5oityJVfk.jpg" alt="img">
+            <h4>clean codes</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section><!-- End Features Section -->
+  <!-- screenshot -->
+  <section id="screenshots" class="padd-section text-center">
+
+    <div class="container" data-aos="fade-up">
+      <div class="section-title text-center">
+        <h1>App Gallery</h1>
+        <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+      </div>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="swiper-slide my-14"><img src="img/1.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="carousel-item">
+            <div class="swiper-slide my-14"><img src="img/2.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="carousel-item">
+            <div class="swiper-slide my-14"><img src="img/3.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="carousel-item">
+            <div class="swiper-slide my-14"><img src="img/4.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="carousel-item">
+            <div class="swiper-slide my-14"><img src="img/5.png" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>  
+    </div>
+  </section><!-- End Screenshots Section -->
+  <!-- contact section -->
+  <section id="contact" class="padd-section">
+    <div class="container c " data-aos="fade-up">
+      <div class="section-title text-center">
+        <h2>Contact</h2>
+        <p class="separator">contact us through this form</p>
+      </div>
+
+      <div class="row justify-content-center " data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-3 col-md-4">
+          <div class="info">
+            <div class="flex">
+              <img class="h-8 pr-2 my-auto" src="https://img-premium.flaticon.com/png/512/3038/premium/3038019.png?token=exp=1629191298~hmac=1493806fe0bb9ec30988ae054d02df07" alt="">
+              <p class="my-3">Wz-497 srinagar punjabi bagh<br>New Delhi</p>
+            </div>
+
+            <div class="email flex items-center">
+              <img class="h-8 pr-2 "src="https://image.flaticon.com/icons/png/128/888/888853.png" alt="">
+              <p class="my-3">jhaa2600@gmail.com</p>
+            </div>
+
+            <div class="phone flex items-center">
+              <img class="h-8 pr-2 " src="https://image.flaticon.com/icons/png/128/2097/2097276.png" alt="" srcset="">
+              <p class="my-3">+91 7838226306</p>
+            </div>
+          </div>       
+        </div>
+
+        <div class="col-lg-5 col-md-8">
+          <div class="form">
+            <form action="#" method="post" role="form" class="">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group mt-3">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              
+              <div class="text-center"><button class="btn my-2" type="submit">Send Message</button></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="conbox bg-gray-800 flex text-white ">
+
+      <div class="des w-1/2 mt-5 mx-5">
+        <h1>String</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt id maxime consectetur eos deleniti architecto ducimus iure eveniet quod inventore consequuntur perspiciatis eius dolores, culpa corporis officiis possimus voluptatibus dolore ipsum. Illo alias ducimus rerum a inventore, voluptates atque. Vel esse incidunt sunt quae molestias. Architecto perspiciatis maiores ex debitis.</p>
+      </div>
+      <div class="social-links flex flex-col w-1/2 my-5 ">
+        <h1>Contact</h1>
+        <a href="#" class="twitter"><img class="h-8 my-2" src="https://image.flaticon.com/icons/png/512/1409/1409937.png" alt="" srcset="">
+        </a>
+        <a href="#" class="facebook"><img class="h-8 my-2 rounded-md" src="https://image.flaticon.com/icons/png/128/1384/1384053.png" alt=""></a>
+        <a href="#" class="instagram"><img class="h-8 my-2" src="https://image.flaticon.com/icons/png/128/1409/1409946.png" alt=""></a>
+
+        <a href="#" class="linkedin"><img class="h-8 my-2" src="https://image.flaticon.com/icons/png/128/1409/1409945.png" alt=""></a>
+      </div>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+    <link rel="icon" href="img/header.png">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <img class="h-10 mt-1 flex items-center ml-3 mr-3 mb-2 " src="img/header.png" alt="">
+
+      <a class="navbar-brand" href="#"><span class="text-red-600 font-bold">Str</span><span class="text-blue-400 font-bold">ing</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          
+            <li class="nav-item">
+            <a class="nav-link hover:text-blue-500" aria-current="page" href="#">Home</a>
+          </li>
+          
+         
+          <li class="nav-item">
+            <a class="nav-link" href="#"  aria-current="page">Features</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#"  aria-current="page">Screenshots</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"  aria-current="page">Contact</a>
+          </li>
+        </ul>
+        <li class="d-flex nav-item  ">
+            <a class="nav-link text-gray-200 hover:text-blue-500" aria-current="page" href="#">Sign Up</a>
+        </li>
+        <li class="d-flex nav-item ">
+            <a class="nav-link hover:text-blue-500" aria-current="page" href="#">Login</a>
+          </li>
+        <li class="d-flex nav-item h-10">
+            <img class="rounded-full" src="https://pagalstatus.com/wp-content/webpc-passthru.php?src=https://pagalstatus.com/wp-content/uploads/2021/06/Shinchan-Whatsapp-Status-Video.jpg&nocache=1" alt="">
+          </li>
+      </div>
+    </div>
+  </nav>
+  <!-- home -->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators fixed-bottom">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <div class="home min-h-screen bg-gradient-to-r from-purple-400 to-gray-500 flex justify-center">
+          <h1 class="relative top-40  text-7xl"><span class="text-red-800">Str</span><span class="text-blue-800">ing</span></h1>
+        </div>
+      </div>
+      <div class="carousel-item bg-gray-100" data-bs-interval="2000">
+        <div class="container ">
+          <form class="row g-3" action="http://127.0.0.1:5500/home.html" method="POST">
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4">
+              </div>
+              <div class="col-12">
+                <label for="inputname" class="form-label">Name</label>
+                <input type="text" class="form-control" id="inputname" placeholder="Name">
+              </div>
+      
+              <div class="col-md-4">
+                <label for="inputroom" class="form-label">Room</label>
+                <select id="inputroom" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>Cricket</option>
+                  <option>Money Hiest</option>
+                  <option>Politics</option>
+                  <option>Netflic</option>
+
+                </select>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" required="true" for="gridCheck">
+                    Are you sure !
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary chatbtn mb-28">Start chatting</button>
+              </div>
+           </form>
+          </div>
+        </div>
+      <div class="carousel-item bg-gray-100">
+        <section id="get-started" class="padd-section text-center">
+
+          <div class="container mb-0" data-aos="fade-up">
+            <div class="section-title text-center mt-0">
+    
+              <h1 style="font-family: 'Lobster', cursive; color: crimson; text-transform: capitalize;">String <span style="color: blue;">walkthrough</span> </h1>
+              <h5 class="separator">connect people with privicy</h5>
+    
+            </div>
+          </div>
+    
+          <div class="content">
+            <div class="row">
+    
+              <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+                <div class="feature-block-head">
+                  <img class="h-20 mx-auto mb-2" src="https://image.flaticon.com/icons/png/512/1146/1146296.png" alt="img">
+                  <h4>introducing string</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                  <a href="#">read more</a>
+    
+                </div>
+              </div>
+    
+              <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+                <div class="feature-block-head">
+    
+                  <img class="h-20 mx-auto mb-2" src="https://image.flaticon.com/icons/png/512/1374/1374275.png" alt="img">
+                  <h4>user friendly interface</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                  <a href="#">read more</a>
+    
+                </div>
+              </div>
+    
+              <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+                <div class="feature-block-head">
+    
+                  <img class="h-20 mx-auto mb-2" src="https://image.flaticon.com/icons/png/512/3594/3594083.png" alt="img">
+                  <h4>build the app everyone love</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                  <a href="#">read more</a>
+    
+                </div>
+              </div>
+    
+            </div>
+          </div>
+    
+        </section><!-- End Get Started Section -->
+        
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- features -->
+  <section id="features" class="padd-section text-center">
+
+    <div class="container-feature" data-aos="fade-up">
+      <div class="section-title text-center">
+        <h2>Amazing Features.</h2>
+        <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+      </div>
+
+      <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block text-center">
+            <img class="h-16 mx-auto"src="https://image.flaticon.com/icons/png/512/3749/3749872.png" alt="img">
+            <h4>creative design</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block">
+            <img class="h-16 mx-auto" src="https://image.flaticon.com/icons/png/128/841/841385.png" alt="img">
+            <h4>Retina Ready</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block">
+            <img class="h-16 mx-auto" src="https://image.flaticon.com/icons/png/128/4379/4379606.png" alt="img">
+            <h4>easy to use</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block">
+            <img class="h-16 mx-auto" src="https://image.flaticon.com/icons/png/128/834/834775.png" alt="img">
+            <h4>Free Updates</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block">
+            <img class="h-16 mx-auto" src="https://image.flaticon.com/icons/png/128/3770/3770154.png" alt="img">
+            <h4>Free Updates</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block">
+            <img class="h-16 mx-auto" src="https://image.flaticon.com/icons/png/128/3770/3770154.png" alt="img">
+            <h4>App store support</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block">
+            <img class="h-16 mx-auto" src="https://image.flaticon.com/icons/png/128/1808/1808495.png" alt="img">
+            <h4>Perfect Pixel</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block">
+            <img class="h-16 mx-auto" src="https://t4.ftcdn.net/jpg/03/57/63/51/240_F_357635131_b9rWQpLPEh6IVkHmqv4jqTf5oityJVfk.jpg" alt="img">
+            <h4>clean codes</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section><!-- End Features Section -->
+  <!-- screenshot -->
+  <section id="screenshots" class="padd-section text-center">
+
+    <div class="container" data-aos="fade-up">
+      <div class="section-title text-center">
+        <h1>App Gallery</h1>
+        <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+      </div>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="swiper-slide my-14"><img src="img/1.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="carousel-item">
+            <div class="swiper-slide my-14"><img src="img/2.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="carousel-item">
+            <div class="swiper-slide my-14"><img src="img/3.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="carousel-item">
+            <div class="swiper-slide my-14"><img src="img/4.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="carousel-item">
+            <div class="swiper-slide my-14"><img src="img/5.png" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>  
+    </div>
+  </section><!-- End Screenshots Section -->
+  <!-- contact section -->
+  <section id="contact" class="padd-section">
+    <div class="container c " data-aos="fade-up">
+      <div class="section-title text-center">
+        <h2>Contact</h2>
+        <p class="separator">contact us through this form</p>
+      </div>
+
+      <div class="row justify-content-center " data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-3 col-md-4">
+          <div class="info">
+            <div class="flex">
+              <img class="h-8 pr-2 my-auto" src="https://img-premium.flaticon.com/png/512/3038/premium/3038019.png?token=exp=1629191298~hmac=1493806fe0bb9ec30988ae054d02df07" alt="">
+              <p class="my-3">Wz-497 srinagar punjabi bagh<br>New Delhi</p>
+            </div>
+
+            <div class="email flex items-center">
+              <img class="h-8 pr-2 "src="https://image.flaticon.com/icons/png/128/888/888853.png" alt="">
+              <p class="my-3">jhaa2600@gmail.com</p>
+            </div>
+
+            <div class="phone flex items-center">
+              <img class="h-8 pr-2 " src="https://image.flaticon.com/icons/png/128/2097/2097276.png" alt="" srcset="">
+              <p class="my-3">+91 7838226306</p>
+            </div>
+          </div>       
+        </div>
+
+        <div class="col-lg-5 col-md-8">
+          <div class="form">
+            <form action="#" method="post" role="form" class="">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group mt-3">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              
+              <div class="text-center"><button class="btn my-2" type="submit">Send Message</button></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="conbox bg-gray-800 flex text-white ">
+
+      <div class="des w-1/2 mt-5 mx-5">
+        <h1>String</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt id maxime consectetur eos deleniti architecto ducimus iure eveniet quod inventore consequuntur perspiciatis eius dolores, culpa corporis officiis possimus voluptatibus dolore ipsum. Illo alias ducimus rerum a inventore, voluptates atque. Vel esse incidunt sunt quae molestias. Architecto perspiciatis maiores ex debitis.</p>
+      </div>
+      <div class="social-links flex flex-col w-1/2 my-5 ">
+        <h1>Contact</h1>
+        <a href="#" class="twitter"><img class="h-8 my-2" src="https://image.flaticon.com/icons/png/512/1409/1409937.png" alt="" srcset="">
+        </a>
+        <a href="#" class="facebook"><img class="h-8 my-2 rounded-md" src="https://image.flaticon.com/icons/png/128/1384/1384053.png" alt=""></a>
+        <a href="#" class="instagram"><img class="h-8 my-2" src="https://image.flaticon.com/icons/png/128/1409/1409946.png" alt=""></a>
+
+        <a href="#" class="linkedin"><img class="h-8 my-2" src="https://image.flaticon.com/icons/png/128/1409/1409945.png" alt=""></a>
+      </div>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</body>
+>>>>>>> c428f20e4cdfa1d963e57c054e72de9c6939c958
+</html>
