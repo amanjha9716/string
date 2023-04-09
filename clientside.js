@@ -1,7 +1,11 @@
 
+<<<<<<< HEAD
 
 const socket = io('http://localhost:3000', { transports : ['websocket'] });
 
+=======
+const socket = io('https://string-noe6.onrender.com');
+>>>>>>> a56b61bad4f1cfb22d6aec99c56d4a61ce817531
 const audio= new Audio('sms_tone.mp3');
 const form= document.querySelector("#send-container");
 const chatsec=document.querySelector(".chat");
@@ -102,3 +106,5 @@ form.addEventListener('submit',(e)=>{
     socket.emit('send',message);
 
 });
+
+//
