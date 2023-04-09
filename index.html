@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String-connects humanity</title>
+    <link rel="icon" href="img/header.png">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sail&display=swap" rel="stylesheet">
+<script defer src="http://localhost:3000/socket.io/socket.io.js" ></script>
+    <script defer src="./clientside.js" ></script>
+</head>
+<body>
+
+    <div class=" header text-green-300 text-3xl  p-2 h-16 bg-gray-500 flex items-center w-full" style="font-family: 'Sail', cursive;">
+        <img class="h-16 p-1 mt-1 flex items-center ml-3 mr-3 mb-2 " src="img/header.png" alt="">
+        String
+        <div class="my-name pl-16 text-white text-2xl">
+            <span>Abhishek jha</span>
+        </div>
+    </div>
+    <div class="body bg-gray-200 w-full h-4/5 flex  ">
+        <div class="names w-60 h-4/5 min-h-screen bg-gray-400 font-bold text-xl text-white" >
+            <div class="member flex items-center py-3 ml-3 " >
+                Members joined after you
+            
+            </div>
+            
+        </div>
+        <div class="flex-1 ">
+        <div class="chat  overflow-y-scroll">
+           <!-- we will add chat from socket -->
+        </div>
+        <div class="send flex justify-center relative w-3/4 m-auto items-center pt-3 ">
+            <form action="#" class="  w-100 form-sub" id="send-container" >
+                <div class="input-group w-40 mb-4">
+                    <input type="text" class="form-control " id="message" placeholder="message..">
+                    <div class="input-group-text  "><img class="h-10 hover:h-8 " src="https://cdn1.iconfinder.com/data/icons/shopping-223/33/shopping-02-128.png" alt=""></div>
+                  </div>
+            </form>
+        </div>
+        </div>
+        </div>
+        
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+<<<<<<< HEAD
+=======
+</html>
+>>>>>>> d93c1cdea2005805315ec3c704d40a9ef214d653
